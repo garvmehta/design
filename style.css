@@ -1,10 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0vw;
+    padding: 0vw;
 }
 .container{
-    width: 100%;
-    height: 100vh;
+    width: 100vw;
+    height: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -19,7 +19,7 @@
 }
 .sub-box{
     width: 100%;
-    height: 6.66vh;
+    height: 4.8vw;
     /* border: 1px red solid; */
     display: flex;
     align-items: center;
@@ -30,8 +30,8 @@
 }
 .bg-black{
     background-color: black;
-    width: 5vh;
-    height: 5vh;
+    width: 2.5vw;
+    height: 2.5vw;
     border-radius: 50%;
 }
 .flex{
@@ -40,60 +40,60 @@
     justify-content: center;
 }
 .border-yellow{
-    width: 0px;
-    height: 0px;
-    padding: 4px;
+    width: 0vw;
+    height: 0vw;
+    padding: 0.3vw;
     border-radius: 45%;
-    border: 8px solid #ffc107;
+    border: 0.6vw solid #ffc107;
 }
 .p-10{
-    padding: 10px;
+    padding: 0.78vw;
 }
 .border-green{
-    width: 0px;
-    height: 0px;
-    padding: 12px;
+    width: 0vw;
+    height: 0vw;
+    padding: 0.9vw;
     border-radius: 45%;
-    border: 5px solid #11ca18;
+    border: 0.3vw solid #11ca18;
 }
 .yellow-dot{
-    width:0px;
-    height: 0px;
-    border: 15px solid black;
+    width:0vw;
+    height: 0vw;
+    border: 0.9vw solid black;
     background-color: #ffc107;
     border-radius: 45%;
-    padding: 4px;
+    padding: 0.31vw;
 }
 .green-dot{
-    width: 10px;
-    height: 10px;
+    width: 0.78vw;
+    height: 0.78vw;
     border-radius: 50%;
     background-color: #11ca18;
     
 }
 .position-r{
     position: relative;
-    bottom: 5px;
-    right: 5px;
+    bottom: 0.4vw;
+    right: 0.4vw;
 }
 .round{
     border-radius: 40%;
-    width: 30px;
-    height: 30px;
+    width: 2.34vw;
+    height: 2.34vw;
 }
 .bg-purple{
     background-color: #fd01a5;
 }
 .purple-border{
-    width: 0px;
-    height: 0px;
-    padding: 9px;
+    width: 0vw;
+    height: 0vw;
+    padding: 0.6vw;
     border-radius: 45%;
-    border: 5px solid #fd01a5;   
+    border: 0.4vw solid #fd01a5;   
 }
 .purple-dot{
-    width: 15px;
-    height: 15px;
+    width: 1.17vw;
+    height: 1.17vw;
     background-color: #fd01a5;
     border-radius: 50%;
 }
@@ -101,14 +101,14 @@
     background-color: rgb(132, 0, 255);
 }
 .blue-dot{
-    width: 15px;
-    height: 15px;
+    width: 1.17vw;
+    height: 1.17vw;
     background-color: rgb(132, 0, 255);
     border-radius: 50%;
 }
 .bg-blue-2{
-    width:40px;
-    height:40px;
+    width:3.12vw;
+    height:3.12vw;
     border-radius: 45%;
     background-color: rgb(132, 0, 255);
 }
@@ -116,23 +116,23 @@
     background-color:#ffc107;
 }
 .blue-border{
-    border: 8px solid black;
+    border: 0.62vw solid black;
     background-color: rgb(132, 0, 255);
     border-radius: 50%;
-    padding: 8px;
+    padding: 0.62vw;
 }
 .bg-navyBlue{
     background-color: rgb(0, 204, 255);
 }
 .p-5{
-    padding:5px;
+    padding:0.39vw;
 }
 .border-navyBlue{
-    width: 0px;
-    height: 0px;
-    padding: 13px;
+    width: 0vw;
+    height: 0vw;
+    padding: 1.01vw;
     border-radius: 45%;
-    border: 5px solid rgb(0, 204, 255);
+    border: 0.39vw solid rgb(0, 204, 255);
 }
 .s-width{
     width: 70%;
@@ -150,8 +150,8 @@
     border-radius: 30%;
 }
 .dot-navyBlue{
-    width: 5px;
-    height: 5px;
+    width: 0.39vw;
+    height: 0.39vw;
     border-radius: 50%;
     background-color: rgb(0, 204, 255);
 }
@@ -159,17 +159,17 @@
     background-color: rgb(255, 0, 0);
 }
 .border-red{
-    border: 5px solid black;
+    border: 0.39vw solid black;
     background-color: rgb(255, 0, 0);
     border-radius: 50%;
-    padding: 8px;
+    padding: 0.62vw;
 }
 .border-royalblue{
-    width: 0px;
-    height: 0px;
-    padding: 13px;
+    width: 0vw;
+    height: 0vw;
+    padding: 1.01vw;
     border-radius: 40%;
-    border: 5px solid blue;   
+    border: 0.39vw solid blue;   
 }
 .bg-royalBlue{
     background-color: blue;
